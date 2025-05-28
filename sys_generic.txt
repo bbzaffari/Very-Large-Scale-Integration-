@@ -1,0 +1,128 @@
+##Generic Timing Info for library domain: _default_ typical gate delay: 25.0 ps std_slew: 9.2 ps std_load: 6.0 fF
+PBS_Generic-Start - Elapsed_Time 0, CPU_Time 0.0
+stamp 'PBS_Generic-Start' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:24(00:09:55) |  00:00:00(00:00:00) |   0.0(  0.0) |   18:36:28 (May02) |  450.9 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:32(00:10:04) |  00:00:08(00:00:09) |  75.0(  6.4) |   18:36:37 (May02) |  800.2 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:32(00:10:04) |  00:00:00(00:00:00) |   0.0(  0.0) |   18:36:37 (May02) |  800.2 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:35(00:12:15) |  00:00:03(00:02:11) |  25.0( 93.6) |   18:38:48 (May02) |  771.8 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+TNS Restructuring config: no_value at stage: generic applied.
+Number of big hc bmuxes before = 0
+Number of big hc bmuxes after = 0
+==================================
+Stage : to_generic 
+==================================
+  =================
+   Message Summary
+  =================
+----------------------------------------------------------------------------------------
+|    Id    | Sev  |Count |                        Message Text                         |
+----------------------------------------------------------------------------------------
+| DPOPT-7  |Info  |    1 |Skipping datapath optimization.                              |
+| PHYS-752 |Info  |    1 |Partition Based Synthesis execution skipped.                 |
+| SYNTH-1  |Info  |    1 |Synthesizing.                                                |
+| SYNTH-2  |Info  |    1 |Done synthesizing.                                           |
+| TUI-61   |Error |    1 |A required object parameter could not be found.              |
+|          |      |      |Check to make sure that the object exists and is of the      |
+|          |      |      | correct type.  The 'what_is' command can be used to         |
+|          |      |      | determine the type of an object.                            |
+----------------------------------------------------------------------------------------
+Mapper: Libraries have:
+	domain _default_: 625 combo usable cells and 160 sequential usable cells
+Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 28 CPUs usable)
+ 
+Global mapping target info
+==========================
+Cost Group 'default' target slack: Unconstrained
+
+
+State Retention Synthesis Status
+================================
+
+Category                        Flops   Percentage
+--------------------------------------------------
+Total instances                   534        100.0
+Excluded from State Retention     534        100.0
+    - Will not convert            534        100.0
+      - Preserved                   0          0.0
+      - Power intent excluded     534        100.0
+    - Could not convert             0          0.0
+      - Scan type                   0          0.0
+      - No suitable cell            0          0.0
+State Retention instances           0          0.0
+--------------------------------------------------
+
+PBS_Generic_Opt-Post - Elapsed_Time 4, CPU_Time 4.191257999999998
+stamp 'PBS_Generic_Opt-Post' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:24(00:09:55) |  00:00:00(00:00:00) |   0.0(  0.0) |   18:36:28 (May02) |  450.9 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:32(00:10:04) |  00:00:08(00:00:09) |  55.6(  6.2) |   18:36:37 (May02) |  800.2 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:32(00:10:04) |  00:00:00(00:00:00) |   0.0(  0.0) |   18:36:37 (May02) |  800.2 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:35(00:12:15) |  00:00:03(00:02:11) |  18.5( 91.0) |   18:38:48 (May02) |  771.8 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:40(00:12:19) |  00:00:04(00:00:04) |  25.9(  2.8) |   18:38:52 (May02) |  771.8 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+PBS_Generic-Postgen HBO Optimizations - Elapsed_Time 0, CPU_Time 0.0
+stamp 'PBS_Generic-Postgen HBO Optimizations' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:24(00:09:55) |  00:00:00(00:00:00) |   0.0(  0.0) |   18:36:28 (May02) |  450.9 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:32(00:10:04) |  00:00:08(00:00:09) |  55.6(  6.2) |   18:36:37 (May02) |  800.2 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:32(00:10:04) |  00:00:00(00:00:00) |   0.0(  0.0) |   18:36:37 (May02) |  800.2 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:35(00:12:15) |  00:00:03(00:02:11) |  18.5( 91.0) |   18:38:48 (May02) |  771.8 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:40(00:12:19) |  00:00:04(00:00:04) |  25.9(  2.8) |   18:38:52 (May02) |  771.8 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:40(00:12:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   18:38:52 (May02) |  771.8 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+##>=================== Cadence Confidential (Generic-Logical) ===================
+##>=================== Cadence Confidential (Generic-Logical) ===================
+##>Main Thread Summary:
+##>----------------------------------------------------------------------------------------
+##>STEP                           Elapsed       WNS       TNS     Insts      Area    Memory
+##>----------------------------------------------------------------------------------------
+##>G:Initial                            0         -         -      3367     19018       771
+##>G:Setup                              0         -         -         -         -         -
+##>G:Launch ST                          0         -         -         -         -         -
+##>G:Design Partition                   0         -         -         -         -         -
+##>G:Create Partition Netlists          0         -         -         -         -         -
+##>G:Init Power                         0         -         -         -         -         -
+##>G:Budgeting                          0         -         -         -         -         -
+##>G:Derenv-DB                          0         -         -         -         -         -
+##>G:Debug Outputs                      0         -         -         -         -         -
+##>G:ST loading                         0         -         -         -         -         -
+##>G:Distributed                        0         -         -         -         -         -
+##>G:Timer                              0         -         -         -         -         -
+##>G:Assembly                           0         -         -         -         -         -
+##>G:DFT                                0         -         -         -         -         -
+##>G:Const Prop                         0         -         -      2068     15982       771
+##>G:Misc                               4
+##>----------------------------------------------------------------------------------------
+##>Total Elapsed                        4
+##>========================================================================================
+      flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
+UM:*                                                                   syn_gen
